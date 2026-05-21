@@ -30,7 +30,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".Settings2" />
         <activity android:name=".DestinationActivity" />
 
         <receiver android:name=".receiver.AlarmReceiver" />

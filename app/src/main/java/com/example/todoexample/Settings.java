@@ -83,7 +83,7 @@ public class Settings extends BottomSheetDialogFragment {
 
         alarmManager = (AlarmManager) requireActivity().getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(getActivity(), AlarmReceiver.class);
-        pendingIntent = PendingIntent.getBroadcast(getActivity(),0,intent,0);
+        pendingIntent = PendingIntent.getBroadcast(getActivity(),0,intent, PendingIntent.FLAG_IMMUTABLE);
         //Log.d(TAG, "setAlarm: " + calendar.getTimeInMillis());
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),
                 AlarmManager.INTERVAL_DAY,pendingIntent);
