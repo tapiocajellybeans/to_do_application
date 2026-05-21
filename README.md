@@ -111,9 +111,3 @@ app/src/main/java/com/example/todoexample/
 - The `DestinationActivity` launched by notification taps is currently a placeholder with no content.
 - Minimum supported API is **26** due to use of `java.time.LocalDate`.
 - `PendingIntent` flags may need updating for API 31+ (`FLAG_IMMUTABLE` required).
-
----
-
-## 📄 License
-
-This project is for personal / educational use. Feel free to fork and build on it.
