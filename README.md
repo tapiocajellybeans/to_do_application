@@ -40,7 +40,6 @@ app/src/main/java/com/example/todoexample/
 ├── MainActivity.java              # Main task list screen
 ├── AddNewTask.java                # Bottom sheet to add/edit tasks
 ├── Settings.java                  # Bottom sheet for notification settings
-├── Settings2.java                 # Activity version of settings (unused)
 ├── RecyclerItemTouchHelper.java   # Swipe-to-edit / swipe-to-delete
 ├── OnSwipeTouchListener.java      # Gesture detector for calendar swipe
 ├── DialogCloseListener.java       # Interface to refresh list on dialog dismiss
@@ -107,7 +106,6 @@ app/src/main/java/com/example/todoexample/
 
 ## ⚠️ Known Issues / Notes
 
-- `Settings2.java` is an activity-based version of the settings screen; it is currently unused in favour of the `Settings` bottom sheet.
 - The `DestinationActivity` launched by notification taps is currently a placeholder with no content.
 - Minimum supported API is **26** due to use of `java.time.LocalDate`.
 - `PendingIntent` flags may need updating for API 31+ (`FLAG_IMMUTABLE` required).
