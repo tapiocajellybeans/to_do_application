@@ -1,4 +1,4 @@
-# 📋 ToDoExample — Android To-Do App
+# 📋 To Do App — Android To-Do App
 
 A feature-rich Android to-do list application built with Java in Android Studio. Manage your tasks with due dates, a calendar view, daily reminders, and a home screen widget.
 
@@ -83,7 +83,7 @@ app/src/main/java/com/example/todoexample/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/todoexample.git
+   git clone https://github.com/tapiocajellybeans/to_do_application.git
    ```
 2. Open the project in Android Studio.
 3. Let Gradle sync and resolve dependencies.
