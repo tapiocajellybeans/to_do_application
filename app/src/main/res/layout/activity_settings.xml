@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="notification time: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/notiftime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_below="@+id/textview"
+        android:hint="hh:mm"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="25sp"
+
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        > </EditText>
+
+    <Button
+        android:id="@+id/savesettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notiftime"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@android:color/transparent"
+        android:text="save"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>
